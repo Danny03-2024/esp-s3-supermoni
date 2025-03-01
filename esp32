@@ -1,0 +1,10 @@
+board: esp32-s3-supermini 
+platform: espressif32 
+framework: 
+    type: esp-idf 
+board_flash_mode: dio 
+board_flash_size: 4MB 
+build_flags: - '-DCHIP_ESP32S3' 
+upload_flags: 
+   - "--chip" 
+   - "esp32s3"
