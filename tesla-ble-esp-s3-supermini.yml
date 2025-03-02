@@ -1,0 +1,10 @@
+external_components: !include packages/external_components.yml
+
+packages:
+  base: !include packages/base.yml
+  device_base: github://Danny03-2024/esp-s3-supermoni/esp32.yml@main
+  client: !include packages/client.yml
+  # for ESPHome Dashboard, use this instead of external_components
+
+dashboard_import:
+  package_import_url: github://Danny03-2024/tesla-ble-s3-supermini.dashboard.yml
